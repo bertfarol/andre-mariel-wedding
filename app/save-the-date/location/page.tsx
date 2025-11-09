@@ -33,7 +33,15 @@ export default function DressCodePage() {
               Tagaytay - Nasugbu Hwy, Tagaytay, 4120 Cavite
             </p>
 
-          <GetDirectionsButton />
+          <div className="flex justify-center">
+            <a
+              href="https://www.google.com/maps/dir//Balay+Dako+Tagaytay+-+Nasugbu+Hwy+Tagaytay+City+4120+Cavite/@14.1025675,120.9509707,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x33bd7772447d5445:0x903beff1916baf77"
+              target="_blank"
+              className="font-playfair font-semibold text-[15px] rounded-[6px] bg-black text-white h-[44px] w-full max-w-[288px] cursor-pointer hover:opacity-80 duration-300 grid place-items-center"
+            >
+              Get Directions
+            </a>
+          </div>
          </div>
        </section>
   )
