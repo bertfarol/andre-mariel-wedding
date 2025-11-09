@@ -56,6 +56,7 @@ export default async function Invitation() {
               width={438}
               height={479}
               className="w-full h-auto" 
+              priority
             />
           </div>
 

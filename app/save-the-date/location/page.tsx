@@ -1,4 +1,5 @@
 import GetDirectionsButton from "@/components/GetDirectionsButton";
+import Image from "next/image";
 
 export default function DressCodePage() {
   return (
@@ -14,11 +15,15 @@ export default function DressCodePage() {
    
          <div className="px-[20px] max-w-[768px] mx-auto">
             <div className="w-full mb-[36px]">
-              <img
+              <Image
                 src="/balay-dako-1024x480.webp"
                 alt="Balay Dako"
+                width={1024}
+                height={480}
                 className="w-full h-auto"
+                priority
               />
+              
             </div>
 
             <h3 className="text-center font-playfair text-[20px] font-medium text-[#232323] mb-[12px]">
