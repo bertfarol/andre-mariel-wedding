@@ -1,16 +1,17 @@
 "use client";
 
+import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const CountdownTimer = () => {
   const targetDate = new Date("April 10, 2026 16:00:00").getTime();
 
-  const [timeLeft, setTimeLeft] = useState({
-    days: "00",
-    hours: "00",
-    minutes: "00",
-    seconds: "00",
-  });
+  const [timeLeft, setTimeLeft] = useState<{
+    days: string;
+    hours: string;
+    minutes: string;
+    seconds: string;
+  } | null>(null); // null initially to show loader
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -46,6 +47,15 @@ const CountdownTimer = () => {
     return () => clearInterval(timer);
   }, [targetDate]);
 
+  // Loader while waiting
+  if (!timeLeft) {
+    return (
+      <div className="flex justify-center items-center h-[75px]">
+        <LoaderCircle className="animate-spin"/>
+      </div>
+    );
+  }
+
   return (
     <div className="text-center">
       <div className="font-playfair text-[38px] font-medium flex justify-center gap-2">
@@ -65,3 +75,4 @@ const CountdownTimer = () => {
 };
 
 export default CountdownTimer;
+

@@ -13,7 +13,7 @@ export default function DressCodePage() {
 
 
 
-      <div className="flex flex-row items-center justify-center gap-5">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-5">
         <div className="w-[291px]">
           <img
             src="/men-dress-code.svg"
