@@ -15,39 +15,22 @@ export default function DressCodePage() {
 
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-5">
-         SVG - img
-        <div className="w-[291px]">
-          <img
-            src="/men-dress-code.svg"
-            alt="Men Dress Code"
-            className="w-full h-auto"       
-          />
-        </div>
-        PNG - Image
-        <div className="w-[291px]">
+        <div className="h-[362px]">
           <Image
             src="/men-dress-code.png"
             alt="Dress Code"
             width={592}
             height={736}
-            className="w-full h-auto"  
+            className="w-auto h-full"  
           />
         </div>
-        SVG - Image
-        <div className="w-[291px]">
+        <div className="h-[362px]">
           <Image
-            src="/men-dress-code.svg"
+            src="/women-dress-code.png"
             alt="Dress Code"
-            width={291}
-            height={362}
-            className="w-full h-auto"  
-          />
-        </div>
-        <div className="w-[266px]">
-          <img
-            src="/woman-dress-code.svg"
-            alt="Women Dress Code"
-            className="w-full h-auto"            
+            width={541}
+            height={736}
+            className="w-auto h-full"  
           />
         </div>
       </div>
