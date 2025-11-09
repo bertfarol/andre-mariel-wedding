@@ -10,7 +10,7 @@ export default function SaveTheDateLayout({ children }: {children: React.ReactNo
   return (
     <main>
       {!shouldHideHeader && (  
-        <nav className="px-[20px] h-[60px] md:h-[72px] flex items-center justify-items-start max-w-[768px] mx-auto">
+        <nav className="px-[20px] h-[72px] flex items-center justify-items-start max-w-[768px] mx-auto">
           <Link href='/save-the-date' className='flex items-center'>
             <div className='flex gap-[7px] group cursor-pointer'>
               <span>
