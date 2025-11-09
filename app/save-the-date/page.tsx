@@ -1,5 +1,4 @@
 
-import SlideUp from "@/components/animation/SlideUp";
 import CountdownTimer from "@/components/CountDownTime";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,7 +17,7 @@ export default async function Invitation() {
             {/* Paper */}  
             <div className="animate-slide-up bg-paper w-full max-w-[310px] md:max-w-[362px] mx-auto pt-[50px] absolute left-1/2 -translate-x-1/2 top-0 z-3">
               <div className="font-playfair text-[15px] md:text-[20px]  text-center mb-[34px] md:mb-[40px] text-[#232323]"> 
-                YOU'RE INVITED TO THE<br/>WEDDING OF 
+                YOU&apos;RE INVITED TO THE<br/>WEDDING OF 
               </div>
               <div className="font-imperial text-[58px] md:text-[78px] text-center mb-[34px] md:mb-[40px] text-[#232323] leading-[0.7]"> 
                 Andre<br/>&<br/>Mariel

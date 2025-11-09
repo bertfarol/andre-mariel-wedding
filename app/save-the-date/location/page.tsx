@@ -9,7 +9,7 @@ export default function DressCodePage() {
              Location
           </h2>
           <div className="text-[16px] leading-[1.4] text-center text-[#4C4A4A]">
-            We can't wait to celebrate this special day with you at our chosen venue
+            We can&apos;t wait to celebrate this special day with you at our chosen venue
           </div>
          </header>
    

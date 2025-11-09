@@ -25,7 +25,7 @@ export default function DressCodePage() {
             Can I bring a guest?
           </h3>
           <p className="text-[#4C4A4A] text-[16px] leading-[1.4]">
-            If you have been permitted to bring a guest, your invitation is either your guest's name or a +1 notation. Otherwise, we would love to keep our wedding as an intimate event with close friends and family only.
+            If you have been permitted to bring a guest, your invitation is either your guest&apos;s name or a +1 notation. Otherwise, we would love to keep our wedding as an intimate event with close friends and family only.
           </p>
         </article>
         
@@ -48,7 +48,7 @@ export default function DressCodePage() {
           </h3>
           <div className="text-[#4C4A4A] text-[16px] leading-[1.4]">
             <ul className="list-disc list-inside space-y-1 mb-3">
-              <li>We'd love to see our family and friends get dressed up for our big day!</li>
+              <li>We&apos;d love to see our family and friends get dressed up for our big day!</li>
               <li>The dress code is BLACK TIE. We ask that men wear a black tuxedo and women wear black formal gowns.</li>
               <li>
                 To help us create a beautiful atmosphere for the day, we kindly request that all guests wear BLACK only.           
