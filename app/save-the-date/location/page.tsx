@@ -15,14 +15,11 @@ export default function DressCodePage() {
    
          <div className="px-[20px] max-w-[768px] mx-auto">
             <div className="w-full mb-[36px]">
-              <Image
+              <img
                 src="/balay-dako-640x300.png"
                 alt="Balay Dako"
-                width={640}
-                height={300}
                 className="w-full h-auto"
-                priority
-              />
+                />
             </div>
 
             <h3 className="text-center font-playfair text-[20px] font-medium text-[#232323] mb-[12px]">

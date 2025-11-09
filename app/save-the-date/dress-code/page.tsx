@@ -13,19 +13,20 @@ export default function DressCodePage() {
       </header>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-[27px]">
-          <Image
+        <div className="w-[291px]">
+          <img
             src="/men-dress-code.svg"
             alt="Men Dress Code"
-            width={291}
-            height={362}         
+            className="w-full h-auto"       
           />
-          <Image
+        </div>
+        <div className="w-[266px]">
+          <img
             src="/woman-dress-code.svg"
             alt="Women Dress Code"
-            width={266}
-            height={362}
             className="w-full h-auto"            
           />
+        </div>
       </div>
     </section>
   )
