@@ -15,15 +15,27 @@ export default async function Invitation() {
           {/* Open Envelope */}
           <div className="relative w-[343px] md:w-[438px] mx-auto z-3 pt-[120px]">
             {/* Paper */}  
-            <div className="animate-slide-up bg-paper w-full max-w-[310px] md:max-w-[362px] mx-auto pt-[50px] absolute left-1/2 -translate-x-1/2 top-0 z-3">
-              <div className="font-playfair text-[15px] md:text-[20px]  text-center mb-[34px] md:mb-[40px] text-[#232323]"> 
-                YOU&apos;RE INVITED TO THE<br/>WEDDING OF 
+            <div className="animate-slide-up w-full max-w-[310px] md:max-w-[362px] mx-auto pt-[50px] absolute left-1/2 -translate-x-1/2 top-0 z-3">
+             <div className="relative z-10">
+                <div className="font-playfair text-[15px] md:text-[20px]  text-center mb-[34px] md:mb-[40px] text-[#232323]"> 
+                  YOU&apos;RE INVITED TO THE<br/>WEDDING OF 
+                </div>
+                <div className="font-imperial text-[58px] md:text-[78px] text-center mb-[34px] md:mb-[40px] text-[#232323] leading-[0.7]"> 
+                  Andre<br/>&<br/>Mariel
+                </div>
+                <div className="font-playfair text-[15px] md:text-[20px] text-center mb-[80px] text-[#232323]"> 
+                  FRIDAY, APRIL 10, 2026<br/>AT 4:00 PM 
+                </div>
               </div>
-              <div className="font-imperial text-[58px] md:text-[78px] text-center mb-[34px] md:mb-[40px] text-[#232323] leading-[0.7]"> 
-                Andre<br/>&<br/>Mariel
-              </div>
-              <div className="font-playfair text-[15px] md:text-[20px] text-center mb-[80px] text-[#232323]"> 
-                FRIDAY, APRIL 10, 2026<br/>AT 4:00 PM 
+              <div className="w-full absolute top-0 left-0 z-0">
+                <Image
+                  src="/Paper_Medium.png"
+                  alt="paper"
+                  width={372}
+                  height={475}
+                  className="w-full h-auto"
+                  priority
+                />
               </div>
             </div>   
             <Image
