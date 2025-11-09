@@ -23,9 +23,18 @@ const imperialScript = Imperial_Script({
   variable: "--font-imperial-script", // CSS variable name
 });
 
+const BASE_DOMAIN = process.env.NEXT_PUBLIC_URL ?? ""
+
+
 export const metadata: Metadata = {
   title: "Andre and Mariel Wedding",
   description: "Celebrate the special day of Andre and Mariel with details about their wedding, venue, and faq.",
+  openGraph: {
+    title: "My Awesome Page",
+    description: "This is a description of my page",
+    url: BASE_DOMAIN,
+    images: [`${BASE_DOMAIN}/preview-image.png`], // Absolute URL
+  },
 };
 
 export default function RootLayout({
