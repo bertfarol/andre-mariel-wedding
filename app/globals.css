@@ -22,5 +22,112 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: var(--font-gentium), serif;
 }
+
+/* Background */
+.bg-paper {
+  background-image: url("/paper_002.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.bg-torn-paper {
+  background-image: url("/torn_paper-375.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+/* 768px */
+@media (width >= 48rem) {
+  .bg-torn-paper {
+    background-image: url("/torn_paper-768.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+/* 1024px */
+@media (width >= 64rem) {
+  .bg-torn-paper {
+    background-image: url("/torn_paper-1920.svg");
+    background-size: 2400px 78px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+/* 1536px */
+@media (width >= 96rem) {
+  .bg-torn-paper {
+    background-image: url("/torn_paper-1920.svg");
+    background-size: 100% 106px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+/* Font Family */
+.font-imperial {
+  font-family: var(--font-imperial-script), cursive;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
+
+/* Animation */
+@keyframes slide-up-smooth {
+  0% {
+    transform: translateY(150px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up-smooth 0.4s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+  will-change: transform;
+}
+
+@keyframes slide-up-smooth-flower {
+  0% {
+    transform: translateY(15px); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up-flower-1 {
+  opacity: 0;
+  animation: slide-up-smooth-flower 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s forwards;
+  will-change: transform;
+}
+
+.animate-slide-up-flower-2 {
+  opacity: 0;
+  animation: slide-up-smooth-flower 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) 0.6s forwards;
+  will-change: transform;
+}
+
+.animate-slide-up-flower-3 {
+  opacity: 0;
+  animation: slide-up-smooth-flower 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) 0.9s forwards;
+  will-change: transform;
+}
+
+.animate-slide-up-flower-4 {
+  opacity: 0;
+  animation: slide-up-smooth-flower 0.4s cubic-bezier(0.25, 0.1, 0.25, 1) 1.2s forwards;
+  will-change: transform;
+}
+
+
