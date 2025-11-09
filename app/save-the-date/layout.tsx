@@ -14,9 +14,9 @@ export default function SaveTheDateLayout({ children }: {children: React.ReactNo
           <Link href='/save-the-date' className='flex items-center'>
             <div className='flex gap-[7px] group cursor-pointer'>
               <span>
-                <MoveLeft className='text-gray-400 group-hover:text-[#232323] duration-300' strokeWidth='1px'/>
+                <MoveLeft className='text-gray-700 group-hover:text-[#232323] duration-300' strokeWidth='1px'/>
               </span>
-              <span className="font-playfair text-[15px] text-gray-400 group-hover:text-[#232323] duration-300">
+              <span className="font-playfair text-[15px] text-gray-700 group-hover:text-[#232323] duration-300">
                 Back
               </span>
             </div>
@@ -31,9 +31,9 @@ export default function SaveTheDateLayout({ children }: {children: React.ReactNo
           <Link href='/save-the-date' className='flex items-center'>
             <div className='flex gap-[7px] cursor-pointer group'>
               <span>
-                <MoveLeft className='text-gray-400 group-hover:text-[#232323] duration-300' strokeWidth='1px'/>
+                <MoveLeft className='text-gray-700 group-hover:text-[#232323] duration-300' strokeWidth='1px'/>
               </span>
-              <span className="font-playfair text-[15px] text-gray-400 group-hover:text-[#232323] duration-300">
+              <span className="font-playfair text-[15px] text-gray-700 group-hover:text-[#232323] duration-300">
                 Back
               </span>
             </div>

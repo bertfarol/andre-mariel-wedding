@@ -43,8 +43,7 @@ export default async function Invitation() {
               alt="Envelope Bottom"
               width={438}
               height={479}
-              className="w-full h-auto"
-              priority
+              className="w-full h-auto" 
             />
           </div>
 
@@ -55,8 +54,7 @@ export default async function Invitation() {
               alt="flower-3"
               width={189}
               height={247}
-              className="w-full h-auto"
-              priority
+              className="w-full h-auto"     
             />
           </div>
 
@@ -67,8 +65,7 @@ export default async function Invitation() {
               alt="flower-1"
               width={533}
               height={800}
-              className="w-full h-auto"
-              priority
+              className="w-full h-auto"  
             />
           </div>
 
@@ -80,7 +77,6 @@ export default async function Invitation() {
               width={575}
               height={800}
               className="w-full h-auto"
-              priority
             />
           </div>
 
@@ -92,7 +88,6 @@ export default async function Invitation() {
               width={533}
               height={800}
               className="w-full h-auto"
-              priority
             />
           </div>
         </div>
@@ -115,8 +110,7 @@ export default async function Invitation() {
                   alt="Dress Code"
                   width={199}
                   height={258}
-                  className="w-full h-auto"
-                  priority
+                  className="w-full h-auto"  
                 />
               </Link>
             </div>
@@ -129,8 +123,7 @@ export default async function Invitation() {
                   alt="Frequently Asked Questions"
                   width={192}
                   height={337}
-                  className="w-full h-auto"
-                  priority
+                  className="w-full h-auto"       
                 />
               </Link>
             </div>
@@ -143,8 +136,7 @@ export default async function Invitation() {
                   alt="Location"
                   width={266}
                   height={152}
-                  className="w-full h-auto"
-                  priority
+                  className="w-full h-auto"         
                 />
               </Link>
             </div>
@@ -155,8 +147,7 @@ export default async function Invitation() {
                 alt="flower-1"
                 width={533}
                 height={800}
-                className="w-full h-auto"
-                priority
+                className="w-full h-auto"   
               />
             </div>
 
@@ -166,8 +157,7 @@ export default async function Invitation() {
                 alt="flower-6"
                 width={200}
                 height={299}
-                className="w-full h-auto"
-                priority
+                className="w-full h-auto"        
               />
             </div>
 
@@ -177,8 +167,7 @@ export default async function Invitation() {
                 alt="flower-2"
                 width={575}
                 height={800}
-                className="w-full h-auto"
-                priority
+                className="w-full h-auto"     
               />
             </div>
 
@@ -188,8 +177,7 @@ export default async function Invitation() {
                 alt="flower-2"
                 width={575}
                 height={800}
-                className="w-full h-auto"
-                priority
+                className="w-full h-auto"          
               />
             </div>
           </div>
