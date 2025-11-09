@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function DressCodePage() {
   return (
@@ -14,11 +15,32 @@ export default function DressCodePage() {
 
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-5">
+         SVG - img
         <div className="w-[291px]">
           <img
             src="/men-dress-code.svg"
             alt="Men Dress Code"
             className="w-full h-auto"       
+          />
+        </div>
+        PNG - Image
+        <div className="w-[291px]">
+          <Image
+            src="/men-dress-code.png"
+            alt="Dress Code"
+            width={592}
+            height={736}
+            className="w-full h-auto"  
+          />
+        </div>
+        SVG - Image
+        <div className="w-[291px]">
+          <Image
+            src="/men-dress-code.svg"
+            alt="Dress Code"
+            width={291}
+            height={362}
+            className="w-full h-auto"  
           />
         </div>
         <div className="w-[266px]">

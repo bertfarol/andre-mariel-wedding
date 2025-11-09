@@ -1,5 +1,4 @@
 import GetDirectionsButton from "@/components/GetDirectionsButton";
-import Image from "next/image";
 
 export default function DressCodePage() {
   return (
