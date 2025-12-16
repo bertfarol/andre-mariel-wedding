@@ -10,7 +10,7 @@ export default function SaveTheDateLayout({ children }: {children: React.ReactNo
   return (
     <main>
       {!shouldHideHeader && (  
-        <nav className="px-[20px] h-[72px] flex items-center justify-items-start max-w-[768px] mx-auto">
+        <nav className="px-5 h-[72px] flex items-center justify-items-start max-w-3xl mx-auto">
           <Link href='/save-the-date' className='flex items-center'>
             <div className='flex gap-[7px] group cursor-pointer'>
               <span>
@@ -27,7 +27,7 @@ export default function SaveTheDateLayout({ children }: {children: React.ReactNo
       {children}
 
       {!shouldHideHeader && (  
-        <nav className="px-[20px] h-[60px] flex items-center justify-center mb-[20px]">
+        <nav className="px-5 h-[60px] flex items-center justify-center mb-5">
           <Link href='/save-the-date' className='flex items-center'>
             <div className='flex gap-[7px] cursor-pointer group'>
               <span>
@@ -43,9 +43,9 @@ export default function SaveTheDateLayout({ children }: {children: React.ReactNo
 
 
       {/* Save the Date */}     
-      <section className="py-[16px] flex items-center justify-center gap-8 bg-[#0D0D0D] text-white">
+      <section className="py-4 flex items-center justify-center gap-8 bg-[#0D0D0D] text-white">
         <span className="font-imperial text-[34px]">Save the Date</span>
-        <span className="font-playfair text-[20px] uppercase">April 10, 2026</span>
+        <span className="font-playfair text-[20px] uppercase">April 1, 2026</span>
       </section>
     </main>
   );

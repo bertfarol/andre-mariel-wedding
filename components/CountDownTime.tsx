@@ -4,7 +4,7 @@ import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const CountdownTimer = () => {
-  const targetDate = new Date("April 10, 2026 16:00:00").getTime();
+  const targetDate = new Date("April 1, 2026 16:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState<{
     days: string;
