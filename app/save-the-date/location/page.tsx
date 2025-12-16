@@ -13,12 +13,12 @@ export default function DressCodePage() {
          </header>
    
          <div className="px-5 max-w-3xl mx-auto">
-            <div className="w-full mb-9 rounded-md overflow-hidden">
+            <div className="w-full max-w-[728px] mb-9 rounded-md overflow-hidden">
               <Image
                 src="/location_cover_img.jpg"
-                alt="Balay Dako"
+                alt="Farm Hills Garden"
                 width={1024}
-                height={480}
+                height={781}
                 className="w-full h-auto"
                 priority
               />              

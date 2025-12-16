@@ -1,27 +1,27 @@
 
 export default function DressCodePage() {
   return (
-    <section className="pt-[40px] pb-[84px]">
-      <header className="mb-[60px] px-[20px]">
-        <h2 className="font-imperial text-[48px] leading-[0.7] mb-[12px] md:text-[56px] text-center text-[#232323] mx-auto">
+    <section className="pt-10 pb-[84px]">
+      <header className="mb-[60px] px-5">
+        <h2 className="font-imperial text-[48px] leading-[0.7] mb-3 md:text-[56px] text-center text-[#232323] mx-auto">
           Frequenty Asked <br />Questions
         </h2>
       </header>
 
-      <div className="px-[20px] max-w-[768px] mx-auto">
+      <div className="px-5 max-w-3xl mx-auto">
         <article >
           <h3  className="font-playfair text-[16px] leading-[1.4] font-bold text-[#232323] mb-[6px]">
             Where will the ceremony and reception be held?
           </h3 >
           <p className="text-[#4C4A4A] text-[16px] leading-[1.4]">
-            Both the ceremony and reception will take place at Balay Dako Tagaytay
+            Both the ceremony and reception will take place at Farm Hills Garden
           </p>
         </article >
 
-        <hr className="h-px my-[24px] bg-gray-100 border-0"/>
+        <hr className="h-px my-6 bg-gray-100 border-0"/>
         
         <article>
-          <h3 className="font-playfair text-[16px] leading-[1.4] font-bold text-[#232323] mb-[6px]">
+          <h3 className="font-playfair text-[16px] leading-[1.4] font-bold text-[#232323] mb-1.5">
             Can I bring a guest?
           </h3>
           <p className="text-[#4C4A4A] text-[16px] leading-[1.4]">
@@ -29,10 +29,10 @@ export default function DressCodePage() {
           </p>
         </article>
         
-        <hr className="h-px my-[24px] bg-gray-100 border-0"/>
+        <hr className="h-px my-6 bg-gray-100 border-0"/>
 
         <article>
-          <h3 className="font-playfair text-[16px] leading-[1.4] font-bold text-[#232323] mb-[6px]">
+          <h3 className="font-playfair text-[16px] leading-[1.4] font-bold text-[#232323] mb-1.5">
            Are kids welcome?
           </h3>
           <p className="text-[#4C4A4A] text-[16px] leading-[1.4]">
@@ -40,7 +40,7 @@ export default function DressCodePage() {
           </p>
         </article>
 
-        <hr className="h-px my-[24px] bg-gray-100 border-0"/>
+        <hr className="h-px my-6 bg-gray-100 border-0"/>
 
         <article>
           <h3 className="font-playfair text-[16px] leading-[1.4] font-bold text-[#232323] mb-[6px]">

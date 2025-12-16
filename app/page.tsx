@@ -67,7 +67,7 @@ export default function Home() {
           { src: "/envelope-bottom.png", width: 438, height: 479 },
           { src: "/open-envelope.png", width: 438, height: 479 },
           { src: "/Paper_Medium.png", width: 372, height: 475 },
-          { src: "/balay-dako-1024x480.webp", width: 1024, height: 480 },
+          { src: "/location_cover_img.jpg", width: 1080, height: 781 },
           { src: "/men-dress-code.png", width: 592, height: 736 },
           { src: "/women-dress-code.png", width: 541, height: 736 },
         ]}
