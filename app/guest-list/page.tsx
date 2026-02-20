@@ -1,11 +1,9 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import clsx from "clsx";
-import { Check, CheckCircle2, ChevronUp, LoaderCircle, Search, UserRound, X, XCircle } from "lucide-react";
+import { Check, ChevronUp, LoaderCircle, Search, UserRound, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
 interface Rsvp {
@@ -193,7 +191,7 @@ export default function GuestListPage() {
         )}
         {!isLoading && (
           <div className="space-y-2">
-            {filteredGuests.map((guest: any) => (
+            {filteredGuests.map(guest => (
                  <div key={guest.id} className="py-3 pl-3 pr-6 shadow bg-white rounded-full flex justify-between items-center">
                   <div>
                     <div className="flex items-center gap-2.5">                    

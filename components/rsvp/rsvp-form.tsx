@@ -62,12 +62,6 @@ export function RSVPForm() {
     }
   }
 
-  const handleBackToHome = () => {
-    setCurrentStep(1)
-    setSelectedGuest(null)
-    setRsvpData(null)
-  }
-
   return (
     <div className="mx-auto w-full max-w-md">
       {currentStep < 3 && (
@@ -88,7 +82,7 @@ export function RSVPForm() {
         )}
 
         {currentStep === 3 && rsvpData && (
-          <StepSuccess rsvpData={rsvpData} onBackToHome={handleBackToHome} />
+          <StepSuccess rsvpData={rsvpData} />
         )}
       </div>
     </div>

@@ -179,7 +179,7 @@ export default function Home() {
           </div>
         </header>
   
-        <div className="flex flex-row items-center justify-center gap-2 px-5">
+        <div className="flex flex-row items-center justify-center gap-2 px-5 max-w-2xl mx-auto">
           <div>
             <Image
               src="/men-dress-code.png"
