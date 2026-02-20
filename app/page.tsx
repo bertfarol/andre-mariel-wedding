@@ -309,7 +309,8 @@ export default function Home() {
         <p className="font-imperial text-[38px] leading-none mb-3 md:text-[56px] text-center text-[#232323] mx-auto">
           Kindly Respond
         </p>
-        <p className="text-[#4C4A4A] text-center mb-7">by May 5, 2026, using the RSVP HERE</p>
+        {/* <p className="text-[#4C4A4A] text-center mb-7">by May 5, 2026, using the RSVP HERE</p> */}
+        <p className="text-[#4C4A4A] text-center mb-7">using the RSVP HERE</p>
 
         <div className="flex justify-center">
           <a              
