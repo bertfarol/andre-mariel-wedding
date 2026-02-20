@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function DressCodePage() {
   return (
-    <section className="pt-[40px] pb-[84px]">
-      <header className="mb-[75px] px-[20px] max-w-[640px] mx-auto">
-        <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-[12px] md:mb-[24px] text-center text-[#232323]">
+    <section className="pt-10 pb-[84px]">
+      <header className="mb-[75px] px-5 max-w-[640px] mx-auto">
+        <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-3 md:mb-6 text-center text-[#232323]">
           Dress Code
         </h2>
         <div className="text-[16px] leading-[1.4] text-center text-[#4C4A4A]">

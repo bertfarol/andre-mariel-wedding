@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Guest {
+  id        String   @id @default(cuid())
+  name      String
+  email     String?
+  hasPlusOne Boolean @default(false) @map("has_plus_one")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+  rsvp      Rsvp?
+
+  @@map("guests")
+}
+
+model Rsvp {
+  id                String   @id @default(cuid())
+  guestId           String   @unique @map("guest_id")
+  attending         Boolean
+  plusOneName       String?  @map("plus_one_name")
+  email             String?
+  sendConfirmation  Boolean  @default(false) @map("send_confirmation")
+  message           String?
+  createdAt         DateTime @default(now()) @map("created_at")
+  updatedAt         DateTime @updatedAt @map("updated_at")
+  guest             Guest    @relation(fields: [guestId], references: [id], onDelete: Cascade)
+
+  @@map("rsvps")
+}
