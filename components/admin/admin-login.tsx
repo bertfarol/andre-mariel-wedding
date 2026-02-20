@@ -37,8 +37,9 @@ export function AdminLogin({ onSuccess }: AdminLoginProps) {
       } else {
         setError(data.error || "Invalid password");
       }
-    } catch (err) {
-      setError("Authentication failed. Please try again.");
+    } catch (err: any) {
+      const errorMessage = err || "Authentication failed. Please try again."
+      setError(errorMessage);
     } finally {
       setIsLoading(false);
     }

@@ -1,15 +1,14 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import type { RSVPData } from "@/lib/types"
 import { CheckCircle2, Calendar, MapPin, Clock } from "lucide-react"
+import Link from "next/link";
 
 interface StepSuccessProps {
   rsvpData: RSVPData
-  onBackToHome: () => void
 }
 
-export function StepSuccess({ rsvpData, onBackToHome }: StepSuccessProps) {
+export function StepSuccess({ rsvpData }: StepSuccessProps) {
   return (
     <div className="space-y-8">
       <div className="space-y-4 text-center">
@@ -71,12 +70,12 @@ export function StepSuccess({ rsvpData, onBackToHome }: StepSuccessProps) {
         </ul>
       </div>
 
-      <a
+      <Link
         href="/"
         className="h-12 w-full text-base font-medium bg-primary text-white rounded-md grid place-items-center"
       >
         Back to Homepage
-      </a>
+      </Link>
     </div>
   )
 }

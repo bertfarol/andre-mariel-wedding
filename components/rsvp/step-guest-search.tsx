@@ -81,7 +81,7 @@ export function StepGuestSearch({ onContinue }: StepGuestSearchProps) {
 
       <div className="space-y-3 text-center">
         <h2 className="font-serif text-3xl font-medium tracking-tight text-foreground md:text-4xl">
-          Andre &amp; Mariel's Wedding
+          Andre &amp; Mariel&apos;s Wedding
         </h2>
         <p className="text-muted-foreground">
           Please search for your name to begin the RSVP process
