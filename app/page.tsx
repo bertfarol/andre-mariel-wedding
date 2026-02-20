@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden max-w-5xl mx-auto bg-[#faf8f1] xl:shadow xl:max-w-3xl">
       {/* Hero */}
       <section className="relative pt-[70px] overflow-hidden">   
         <div className="relative w-[343px] md:w-[438px] mx-auto">
@@ -128,7 +128,15 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Location */}
-      <section className="py-10">
+      <section className="py-10 relative">
+        <Image
+          src="/background/1.png"
+          alt="background"
+          width={150}
+          height={195}
+          className="absolute top-[-81px] left-[-72px] "
+          priority
+        />
         <header className="mb-6 px-5 max-w-[640px] mx-auto">
           <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] text-center text-[#232323]">
             Location
@@ -148,7 +156,15 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Program */}
-      <section className="py-10 px-5">
+      <section className="py-10 px-5 relative">
+        <Image
+          src="/background/2.png"
+          alt="background"
+          width={193}
+          height={251}
+          className="absolute top-[-88px] right-[-110px]"
+          priority
+        />
         <header className="mb-12 max-w-[640px] mx-auto">
           <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-6 text-center text-[#232323]">
             Program
@@ -169,7 +185,15 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Dress Code */}
-      <section className="py-10">
+      <section className="py-10 relative">
+        <Image
+          src="/background/3.png"
+          alt="background"
+          width={206}
+          height={241}
+          className="absolute top-[-130px] left-[-118px]"
+          priority
+        />
         <header className="mb-10 px-5 max-w-[640px] mx-auto">
           <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-6 text-center text-[#232323]">
             Dress Code
@@ -177,8 +201,7 @@ export default function Home() {
           <div className="text-[16px] leading-[1.4] text-center text-[#4C4A4A]">
             All guests are requested to wear black tie attire, with men in tuxedos and women in formal black long gowns, for an elegant, unified look.
           </div>
-        </header>
-  
+        </header>  
         <div className="flex flex-row items-center justify-center gap-2 px-5 max-w-2xl mx-auto">
           <div>
             <Image
@@ -186,7 +209,7 @@ export default function Home() {
               alt="Dress Code"
               width={592}
               height={736}
-              className="w-auto h-auto"  
+              className="w-auto h-auto z-10 relative"  
             />
           </div>
           <div>
@@ -195,7 +218,7 @@ export default function Home() {
               alt="Dress Code"
               width={541}
               height={736}
-              className="w-auto h-auto"  
+              className="w-auto h-auto z-10 relative"  
             />
           </div>
         </div>
@@ -204,7 +227,15 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Google map */}
-      <section className="py-10">
+      <section className="py-10 relative">
+        <Image
+          src="/background/4.png"
+          alt="background"
+          width={205}
+          height={249}
+          className="absolute top-[-130px] right-[-70px]"
+          priority
+        />
         <div className="map-wrapper px-5 mb-10 max-w-[700px] mx-auto">
           <div style={{ width: "100%", height: "350px", position: "relative" }}>
             <iframe
@@ -237,7 +268,23 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* FAQ */}
-      <section className="py-10">
+      <section className="py-10 relative">
+        <Image
+          src="/background/5.png"
+          alt="background"
+          width={176}
+          height={222}
+          className="absolute top-[-60px] left-[-76px]"
+          priority
+        />
+        <Image
+          src="/background/6.png"
+          alt="background"
+          width={142}
+          height={172}
+          className="absolute bottom-[-105px] right-[-70px]"
+          priority
+        />
         <header className="mb-10 px-5">
           <h2 className="font-imperial text-[48px] leading-none mb-3 md:text-[56px] text-center text-[#232323] mx-auto">
             Frequently Asked <br /> Questions
@@ -305,7 +352,15 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* RSVP */}
-      <section className="pt-10 pb-20">
+      <section className="pt-10 pb-20 relative overflow-hidden">
+        <Image
+          src="/background/7.png"
+          alt="background"
+          width={140}
+          height={171}
+          className="absolute bottom-[-58px] -left-16"
+          priority
+        />
         <p className="font-imperial text-[38px] leading-none mb-3 md:text-[56px] text-center text-[#232323] mx-auto">
           Kindly Respond
         </p>
@@ -322,6 +377,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-    </>
+    </div>
   );
 }

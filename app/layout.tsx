@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${gentium.variable} ${playfair.variable} ${imperialScript.variable} antialiased bg-[#faf8f1]`}
+        className={`${gentium.variable} ${playfair.variable} ${imperialScript.variable} antialiased`}
       >
         {children}
       </body>
