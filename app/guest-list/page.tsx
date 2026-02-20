@@ -88,7 +88,7 @@ export default function GuestListPage() {
 
   // Show button when page is scrolled down to 1000px
   const toggleVisibility = () => {
-    if (window.scrollY > 1000) {
+    if (window.scrollY > 600) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
