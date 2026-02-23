@@ -142,11 +142,11 @@ export default function Home() {
             Location
           </h2>
         </header>  
-        <div className="px-5 max-w-3xl mx-auto">
+        <div className="px-5 max-w-[600px] mx-auto">
           <h3 className="text-center font-playfair text-[20px] font-medium text-[#232323] mb-3">
             Farm Hills Garden
           </h3>
-          <p className="text-center text-[15px] leading-[1.4] text-[#4C4A4A]">
+          <p className="text-center text-[15px] lg:text-[17px] leading-[1.4] text-[#4C4A4A]">
             Combines nature, relaxation, and celebration in a single destination. It&apos;s set amidst lush gardens with tall pine trees and green open spaces, 
             offering a serene countryside atmosphere perfect for guests looking to escape city life.
           </p>
@@ -170,7 +170,7 @@ export default function Home() {
             Program
           </h2>
         </header> 
-        <div className="w-[290px] md:w-[500px] mx-auto mb-4 rounded-md overflow-hidden">
+        <div className="w-[290px] md:w-[400px] mx-auto mb-4 rounded-md overflow-hidden">
           <Image
             src="/program_image.svg"
             alt="Farm Hills Garden"
@@ -184,7 +184,7 @@ export default function Home() {
 
       <hr className="style-two"/>
 
-      {/* Dress Code */}
+      {/* Entourage */}
       <section className="py-10 relative">
         <Image
           src="/background/3.png"
@@ -196,9 +196,124 @@ export default function Home() {
         />
         <header className="mb-10 px-5 max-w-[640px] mx-auto">
           <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-6 text-center text-[#232323]">
+            Entourage
+          </h2>
+        </header>  
+
+        <div className="grid grid-cols-2 gap-5">
+          <div className="text-right">
+            <h3 className="font-imperial text-[26px] lg:text-[32px]">Parents of the Bride</h3>
+            <p className="text-[#383838] lg:text-[18px]">Catherine Santos</p>
+            <p className="text-[#383838] lg:text-[18px]">Rossano Santos</p>
+          </div>
+          <div>
+            <h3 className="font-imperial text-[26px] lg:text-[32px]">Parents of the Groom</h3>
+            <p className="text-[#383838] lg:text-[18px]">Emerita Santos</p>
+            <p className="text-[#383838] lg:text-[18px]">Fredric Santos</p>
+          </div>
+        </div>
+
+        <div className="mt-8">
+          <h3 className="font-imperial text-[26px] lg:text-[32px] text-center tracking-wider">Principal Sponsors</h3>
+          <div className="grid grid-cols-2 gap-5">
+            <div className="text-right">
+              <p className="text-[#383838] lg:text-[18px]">Adalyn Panzo</p>
+              <p className="text-[#383838] lg:text-[18px]">Gina Gutierrez</p>
+              <p className="text-[#383838] lg:text-[18px]">Rochelle Gutierrez</p>
+            </div>
+            <div>
+              <p className="text-[#383838] lg:text-[18px]">Richard Panzo</p>
+              <p className="text-[#383838] lg:text-[18px]">Aldrin San Pedro</p>
+              <p className="text-[#383838] lg:text-[18px]">Alexson Diaz</p>
+            </div>
+          </div>
+          <p className="text-[#383838] lg:text-[18px] text-center">Emilia Santos</p>
+        </div>
+
+        <div className="grid grid-cols-2 gap-5 mt-8">
+          <div className="text-right">
+            <h3 className="font-imperial text-[26px] lg:text-[32px]">Bridesmaid</h3>
+            <p className="text-[#383838] lg:text-[18px]">Kate Angeline Santos</p>
+            <p className="text-[#383838] lg:text-[18px]">Janine Beatrice Trozado</p>
+            <p className="text-[#383838] lg:text-[18px]">Gille Caroline Gutierrez</p>
+            <p className="text-[#383838] lg:text-[18px]">Eyana Sophia Cortez</p>
+            <p className="text-[#383838] lg:text-[18px]">Jessica Mae Roxas</p>
+            <p className="text-[#383838] lg:text-[18px]">Dynalou Masangkay</p>
+            <p className="text-[#383838] lg:text-[18px]">Arthrynne Bayot</p>
+            <p className="text-[#383838] lg:text-[18px]">Alexandra Naomi Vergara</p>
+            <p className="text-[#383838] lg:text-[18px]">Mica Mae Pabello</p>
+
+            <h3 className="font-imperial text-[26px] lg:text-[32px] mt-10 leading-[1.2]">Bridesmen</h3>
+            <p className="text-[#383838] lg:text-[18px]">Bjorn Chauncey Dumalag</p>
+            <p className="text-[#383838] lg:text-[18px]">John Ocampo</p>
+          </div>
+          <div>
+            <h3 className="font-imperial text-[26px] lg:text-[32px] ">Groomsmen</h3>
+            <p className="text-[#383838] lg:text-[18px]">Alfonso Santos</p> 
+            <p className="text-[#383838] lg:text-[18px]">Jemil Cruz</p> 
+            <p className="text-[#383838] lg:text-[18px]">Ron Jake Marin</p> 
+            <p className="text-[#383838] lg:text-[18px]">Venjo Tesoro</p> 
+            <p className="text-[#383838] lg:text-[18px]">Richmond Caing</p> 
+            <p className="text-[#383838] lg:text-[18px]">Robert Lee Sedante</p> 
+            <p className="text-[#383838] lg:text-[18px]">John Carlo Sedanto</p> 
+            <p className="text-[#383838] lg:text-[18px]">Aaron Aquino</p> 
+            <p className="text-[#383838] lg:text-[18px]">Tristan Barbosa</p> 
+            <p className="text-[#383838] lg:text-[18px]">Mario Pagkalinawan</p> 
+            <p className="text-[#383838] lg:text-[18px]">Marco Tabobo</p> 
+          </div>
+        </div>
+
+        <div className="mt-8">
+          <h3 className="font-imperial text-[26px] lg:text-[32px] text-center leading-[1.2]">Veil</h3>
+          <p className="text-[#383838] lg:text-[18px] text-center">Maria Jamaica Arangozo</p>
+        </div>
+
+        <div className="grid grid-cols-2 gap-2 mt-8 max-w-[480px] mx-auto">
+          <div className="text-center">
+            <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Candle</h3>
+            <p className="text-[#383838] lg:text-[18px]">Raiza Pernia</p>
+          </div>
+          <div className="text-center">
+            <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Ring Bearer</h3>
+            <p className="text-[#383838] lg:text-[18px]">Raphael Matthew Cortez</p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 mt-8 max-w-[320px] mx-auto">
+          <div className="text-center">
+            <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Coin Bearer</h3>
+            <p className="text-[#383838] lg:text-[18px]">Amirah Liza Santos</p>
+          </div>
+          <div className="text-center">
+            <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Bible Bearer</h3>
+            <p className="text-[#383838] lg:text-[18px]">Edzel Cortez</p>
+          </div>
+        </div>
+
+        <div className="mt-8">
+          <h3 className="font-imperial text-[26px] lg:text-[32px] text-center leading-[1.2]">Flower Girl</h3>
+          <p className="text-[#383838] lg:text-[18px] text-center">Kaia Winona Santos</p>
+        </div>
+
+      </section>
+
+      <hr className="style-two"/>
+
+      {/* Dress Code */}
+      <section className="py-10 relative">
+        <Image
+          src="/background/2.png"
+          alt="background"
+          width={193}
+          height={251}
+          className="absolute top-[-88px] right-[-110px]"
+          priority
+        />
+        <header className="mb-10 px-5 max-w-[640px] mx-auto">
+          <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-6 text-center text-[#232323]">
             Dress Code
           </h2>
-          <div className="text-[16px] leading-[1.4] text-center text-[#4C4A4A]">
+          <div className="text-[16px] leading-[1.4] text-center text-[#4C4A4A] lg:text-[17px] max-w-[600px] mx-auto">
             All guests are requested to wear black tie attire, with men in tuxedos and women in formal black long gowns, for an elegant, unified look.
           </div>
         </header>  
@@ -226,14 +341,14 @@ export default function Home() {
 
       <hr className="style-two"/>
 
-      {/* Google map */}
+      {/* Our Venue */}
       <section className="py-10 relative px-8">
         <Image
-          src="/background/4.png"
+          src="/background/5.png"
           alt="background"
-          width={205}
-          height={249}
-          className="absolute top-[-130px] right-[-70px]"
+          width={176}
+          height={222}
+          className="absolute top-[-60px] left-[-76px]"
           priority
         />
         <header className="mb-10 px-5 max-w-[640px] mx-auto">
@@ -254,16 +369,16 @@ export default function Home() {
             ></iframe>
           </div>
         </div> */}
-        <p className="text-center text-lg leading-normal font-bold text-[#232323]">
+        <p className="text-center text-lg lg:text-[20px] leading-normal font-bold text-[#232323]">
           Ceremony
         </p>
-        <p className="text-center text-base leading-[1.4] text-[#4C4A4A] mb-4">
+        <p className="text-center text-base leading-[1.4] text-[#4C4A4A] mb-6 lg:text-[17px]">
           4:00 PM
         </p>
-        <p className="text-center text-base leading-[1.4] font-bold text-[#232323]">
+        <p className="text-center text-lg lg:text-[20px] leading-[1.4] font-bold text-[#232323]">
           Farm Hills Garden
         </p>
-        <p className="text-center text-base leading-[1.3] text-[#4C4A4A]">
+        <p className="text-center text-base leading-[1.3] text-[#4C4A4A] lg:text-[17px]">
           Location/Waze: Farm Hills Garden, Brgy. Ulat, <br />Silang, 4118 Cavite
         </p>
 
@@ -288,11 +403,11 @@ export default function Home() {
           />
         </div>
 
-        <p className="text-center text-base leading-[1.3] text-[#4C4A4A]  mb-4">
+        <p className="text-center text-base leading-[1.3] text-[#4C4A4A]  mb-4 lg:text-[17px]">
           Click <b>{`“Get Directions”`}</b> to see location details or scan the QR code below:
         </p>
 
-        <div className="grid place-items-center max-w-[300px] mx-auto">
+        <div className="grid place-items-center max-w-[270px] mx-auto">
           <Image
             src="/location_qr.png"
             alt="Farm Hills Garden"
@@ -309,11 +424,11 @@ export default function Home() {
       {/* FAQ */}
       <section className="py-10 relative">
         <Image
-          src="/background/5.png"
+          src="/background/4.png"
           alt="background"
-          width={176}
-          height={222}
-          className="absolute top-[-60px] left-[-76px]"
+          width={205}
+          height={249}
+          className="absolute top-[-130px] right-[-70px]"
           priority
         />
         <Image
@@ -321,7 +436,7 @@ export default function Home() {
           alt="background"
           width={142}
           height={172}
-          className="absolute bottom-[-105px] right-[-70px]"
+          className="absolute bottom-[-105px] left-[-70px] scale-x-[-1]"
           priority
         />
         <header className="mb-10 px-5">
@@ -397,14 +512,14 @@ export default function Home() {
           alt="background"
           width={140}
           height={171}
-          className="absolute bottom-[-58px] -left-16"
+          className="absolute bottom-[-58px] -right-16 scale-x-[-1]"
           priority
         />
         <p className="font-imperial text-[38px] leading-none mb-3 md:text-[56px] text-center text-[#232323] mx-auto">
           Kindly Respond
         </p>
         {/* <p className="text-[#4C4A4A] text-center mb-7">by May 5, 2026, using the RSVP HERE</p> */}
-        <p className="text-[#4C4A4A] text-center mb-7">using the RSVP HERE</p>
+        <p className="text-[#4C4A4A] text-center mb-7 lg:text-[17px]">using the RSVP HERE</p>
 
         <div className="flex justify-center">
           <a              
