@@ -117,7 +117,7 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Countdown */}
-      <section className="py-10 bg-[#222222] ">
+      <section className="py-10 bg-[#0d0d0d] ">
         <div className="text-white text-center font-playfair mb-2 text-lg font-medium ">
           {/* WEDDING DAY COUNTDOWN */}
           Wedding Day Countdown
@@ -128,7 +128,23 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Location */}
-      <section className="py-10 relative">
+      <section className="pt-20 md:pt-28 xl:pt-24 pb-10 relative">
+        <Image
+          src="/torn_paper-640px.png"
+          alt="background"
+          width={640}
+          height={53}
+          className="w-full h-auto scale-y-[-1] absolute -top-0.5 left-0 md:hidden"
+          priority
+        />
+        <Image
+          src="/torn_paper-768px.png"
+          alt="background"
+          width={768}
+          height={55}
+          className="w-full h-auto scale-y-[-1] absolute -top-0.5 left-0 hidden md:block"
+          priority
+        />
         <Image
           src="/background/1.png"
           alt="background"
@@ -185,7 +201,7 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Entourage */}
-      <section className="py-10 relative bg-[#222222] text-white">
+      <section className="py-10 relative bg-[#0d0d0d] text-white">
         <Image
           src="/background/3.png"
           alt="background"
@@ -297,10 +313,25 @@ export default function Home() {
 
       </section>
 
-      <hr className="style-two"/>
-
       {/* Dress Code */}
-      <section className="py-10 relative">
+      <section className="pt-20 md:pt-28 xl:pt-24 pb-10 relative">
+        <Image
+          src="/torn_paper-640px.png"
+          alt="background"
+          width={640}
+          height={53}
+          className="w-full h-auto scale-y-[-1] absolute -top-0.5 left-0 md:hidden"
+          priority
+        />
+        <Image
+          src="/torn_paper-768px.png"
+          alt="background"
+          width={768}
+          height={55}
+          className="w-full h-auto scale-y-[-1] absolute -top-0.5 left-0 hidden md:block"
+          priority
+        />
+
         <Image
           src="/background/2.png"
           alt="background"
