@@ -227,7 +227,7 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Google map */}
-      <section className="py-10 relative">
+      <section className="py-10 relative px-8">
         <Image
           src="/background/4.png"
           alt="background"
@@ -236,7 +236,12 @@ export default function Home() {
           className="absolute top-[-130px] right-[-70px]"
           priority
         />
-        <div className="map-wrapper px-5 mb-10 max-w-[700px] mx-auto">
+        <header className="mb-10 px-5 max-w-[640px] mx-auto">
+          <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-6 text-center text-[#232323]">
+            Our Venue
+          </h2>
+        </header>  
+        {/* <div className="map-wrapper px-5 mb-10 max-w-[700px] mx-auto">
           <div style={{ width: "100%", height: "350px", position: "relative" }}>
             <iframe
               src="https://www.google.com/maps?q=14.1486862,120.9849878&z=15&output=embed"
@@ -248,13 +253,21 @@ export default function Home() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div>
-
-        <p className="text-center text-[15px] leading-[1.4] text-[#4C4A4A] mb-6">
-          Farm Hills Garden, Brgy. Ulat, Silang, 4118 Cavite
+        </div> */}
+        <p className="text-center text-lg leading-normal font-bold text-[#232323]">
+          Ceremony
+        </p>
+        <p className="text-center text-base leading-[1.4] text-[#4C4A4A] mb-4">
+          4:00 PM
+        </p>
+        <p className="text-center text-base leading-[1.4] font-bold text-[#232323]">
+          Farm Hills Garden
+        </p>
+        <p className="text-center text-base leading-[1.3] text-[#4C4A4A]">
+          Location/Waze: Farm Hills Garden, Brgy. Ulat, <br />Silang, 4118 Cavite
         </p>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center my-8">
           <a              
             href="https://www.google.com/maps/place/Farm+Hills+Garden/@14.148686,120.984988,17z/data=!4m9!3m8!1s0x33bd79871e87c969:0x73a05d49502391f8!5m2!4m1!1i2!8m2!3d14.1486862!4d120.9849878!16s%2Fg%2F11gb3jrtd9?hl=en&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D"
             target="_blank"
@@ -262,6 +275,32 @@ export default function Home() {
           >
             Get Directions
           </a>
+        </div>
+
+        <div className="grid place-items-center max-w-lg mx-auto mb-4">
+          <Image
+            src="/location_cover_img.jpg"
+            alt="Farm Hills Garden"
+            width={1024}
+            height={781}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
+
+        <p className="text-center text-base leading-[1.3] text-[#4C4A4A]  mb-4">
+          Click <b>{`“Get Directions”`}</b> to see location details or scan the QR code below:
+        </p>
+
+        <div className="grid place-items-center max-w-[300px] mx-auto">
+          <Image
+            src="/location_qr.png"
+            alt="Farm Hills Garden"
+            width={730}
+            height={730}
+            className="w-full h-auto"
+            priority
+          />
         </div>
       </section>
 

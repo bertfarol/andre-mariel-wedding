@@ -1,5 +1,6 @@
 "use client";
 
+import './style.css';
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import clsx from "clsx";
