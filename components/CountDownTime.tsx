@@ -57,7 +57,7 @@ const CountdownTimer = () => {
   }
 
   return (
-    <div className="text-center text-[#232323]">
+    <div className="text-center text-white/75">
       <div className="font-playfair text-[38px] font-medium flex justify-center gap-2">
         <span className="inline-block w-[50px] text-center">{timeLeft.days}</span>:
         <span className="inline-block w-[50px] text-center">{timeLeft.hours}</span>:

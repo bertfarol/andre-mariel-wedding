@@ -117,8 +117,8 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Countdown */}
-      <section className="py-10">
-        <div className="text-[#232323] text-center font-playfair mb-2 text-lg font-medium">
+      <section className="py-10 bg-[#222222] ">
+        <div className="text-white text-center font-playfair mb-2 text-lg font-medium ">
           {/* WEDDING DAY COUNTDOWN */}
           Wedding Day Countdown
         </div>
@@ -185,7 +185,7 @@ export default function Home() {
       <hr className="style-two"/>
 
       {/* Entourage */}
-      <section className="py-10 relative">
+      <section className="py-10 relative bg-[#222222] text-white">
         <Image
           src="/background/3.png"
           alt="background"
@@ -195,7 +195,7 @@ export default function Home() {
           priority
         />
         <header className="mb-10 px-5 max-w-[640px] mx-auto">
-          <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-6 text-center text-[#232323]">
+          <h2 className="font-imperial text-[48px] md:text-[56px] leading-[0.7] mb-6 text-center text-white">
             Entourage
           </h2>
         </header>  
@@ -203,13 +203,13 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-5">
           <div className="text-right">
             <h3 className="font-imperial text-[26px] lg:text-[32px]">Parents of the Bride</h3>
-            <p className="text-[#383838] lg:text-[18px]">Catherine Santos</p>
-            <p className="text-[#383838] lg:text-[18px]">Rossano Santos</p>
+            <p className="text-white/65 lg:text-[18px]">Catherine Santos</p>
+            <p className="text-white/65 lg:text-[18px]">Rossano Santos</p>
           </div>
           <div>
             <h3 className="font-imperial text-[26px] lg:text-[32px]">Parents of the Groom</h3>
-            <p className="text-[#383838] lg:text-[18px]">Emerita Santos</p>
-            <p className="text-[#383838] lg:text-[18px]">Fredric Santos</p>
+            <p className="text-white/65 lg:text-[18px]">Emerita Santos</p>
+            <p className="text-white/65 lg:text-[18px]">Fredric Santos</p>
           </div>
         </div>
 
@@ -217,82 +217,82 @@ export default function Home() {
           <h3 className="font-imperial text-[26px] lg:text-[32px] text-center tracking-wider">Principal Sponsors</h3>
           <div className="grid grid-cols-2 gap-5">
             <div className="text-right">
-              <p className="text-[#383838] lg:text-[18px]">Adalyn Panzo</p>
-              <p className="text-[#383838] lg:text-[18px]">Gina Gutierrez</p>
-              <p className="text-[#383838] lg:text-[18px]">Rochelle Gutierrez</p>
+              <p className="text-white/65 lg:text-[18px]">Adalyn Panzo</p>
+              <p className="text-white/65 lg:text-[18px]">Gina Gutierrez</p>
+              <p className="text-white/65 lg:text-[18px]">Rochelle Gutierrez</p>
             </div>
             <div>
-              <p className="text-[#383838] lg:text-[18px]">Richard Panzo</p>
-              <p className="text-[#383838] lg:text-[18px]">Aldrin San Pedro</p>
-              <p className="text-[#383838] lg:text-[18px]">Alexson Diaz</p>
+              <p className="text-white/65 lg:text-[18px]">Richard Panzo</p>
+              <p className="text-white/65 lg:text-[18px]">Aldrin San Pedro</p>
+              <p className="text-white/65 lg:text-[18px]">Alexson Diaz</p>
             </div>
           </div>
-          <p className="text-[#383838] lg:text-[18px] text-center">Emilia Santos</p>
+          <p className="text-white/65 lg:text-[18px] text-center">Emilia Santos</p>
         </div>
 
         <div className="grid grid-cols-2 gap-5 mt-8">
           <div className="text-right">
             <h3 className="font-imperial text-[26px] lg:text-[32px]">Bridesmaid</h3>
-            <p className="text-[#383838] lg:text-[18px]">Kate Angeline Santos</p>
-            <p className="text-[#383838] lg:text-[18px]">Janine Beatrice Trozado</p>
-            <p className="text-[#383838] lg:text-[18px]">Gille Caroline Gutierrez</p>
-            <p className="text-[#383838] lg:text-[18px]">Eyana Sophia Cortez</p>
-            <p className="text-[#383838] lg:text-[18px]">Jessica Mae Roxas</p>
-            <p className="text-[#383838] lg:text-[18px]">Dynalou Masangkay</p>
-            <p className="text-[#383838] lg:text-[18px]">Arthrynne Bayot</p>
-            <p className="text-[#383838] lg:text-[18px]">Alexandra Naomi Vergara</p>
-            <p className="text-[#383838] lg:text-[18px]">Mica Mae Pabello</p>
+            <p className="text-white/65 lg:text-[18px]">Kate Angeline Santos</p>
+            <p className="text-white/65 lg:text-[18px]">Janine Beatrice Trozado</p>
+            <p className="text-white/65 lg:text-[18px]">Gille Caroline Gutierrez</p>
+            <p className="text-white/65 lg:text-[18px]">Eyana Sophia Cortez</p>
+            <p className="text-white/65 lg:text-[18px]">Jessica Mae Roxas</p>
+            <p className="text-white/65 lg:text-[18px]">Dynalou Masangkay</p>
+            <p className="text-white/65 lg:text-[18px]">Arthrynne Bayot</p>
+            <p className="text-white/65 lg:text-[18px]">Alexandra Naomi Vergara</p>
+            <p className="text-white/65 lg:text-[18px]">Mica Mae Pabello</p>
 
             <h3 className="font-imperial text-[26px] lg:text-[32px] mt-10 leading-[1.2]">Bridesmen</h3>
-            <p className="text-[#383838] lg:text-[18px]">Bjorn Chauncey Dumalag</p>
-            <p className="text-[#383838] lg:text-[18px]">John Ocampo</p>
+            <p className="text-white/65 lg:text-[18px]">Bjorn Chauncey Dumalag</p>
+            <p className="text-white/65 lg:text-[18px]">John Ocampo</p>
           </div>
           <div>
             <h3 className="font-imperial text-[26px] lg:text-[32px] ">Groomsmen</h3>
-            <p className="text-[#383838] lg:text-[18px]">Alfonso Santos</p> 
-            <p className="text-[#383838] lg:text-[18px]">Jemil Cruz</p> 
-            <p className="text-[#383838] lg:text-[18px]">Ron Jake Marin</p> 
-            <p className="text-[#383838] lg:text-[18px]">Venjo Tesoro</p> 
-            <p className="text-[#383838] lg:text-[18px]">Richmond Caing</p> 
-            <p className="text-[#383838] lg:text-[18px]">Robert Lee Sedante</p> 
-            <p className="text-[#383838] lg:text-[18px]">John Carlo Sedanto</p> 
-            <p className="text-[#383838] lg:text-[18px]">Aaron Aquino</p> 
-            <p className="text-[#383838] lg:text-[18px]">Tristan Barbosa</p> 
-            <p className="text-[#383838] lg:text-[18px]">Mario Pagkalinawan</p> 
-            <p className="text-[#383838] lg:text-[18px]">Marco Tabobo</p> 
+            <p className="text-white/65 lg:text-[18px]">Alfonso Santos</p> 
+            <p className="text-white/65 lg:text-[18px]">Jemil Cruz</p> 
+            <p className="text-white/65 lg:text-[18px]">Ron Jake Marin</p> 
+            <p className="text-white/65 lg:text-[18px]">Venjo Tesoro</p> 
+            <p className="text-white/65 lg:text-[18px]">Richmond Caing</p> 
+            <p className="text-white/65 lg:text-[18px]">Robert Lee Sedante</p> 
+            <p className="text-white/65 lg:text-[18px]">John Carlo Sedanto</p> 
+            <p className="text-white/65 lg:text-[18px]">Aaron Aquino</p> 
+            <p className="text-white/65 lg:text-[18px]">Tristan Barbosa</p> 
+            <p className="text-white/65 lg:text-[18px]">Mario Pagkalinawan</p> 
+            <p className="text-white/65 lg:text-[18px]">Marco Tabobo</p> 
           </div>
         </div>
 
         <div className="mt-8">
           <h3 className="font-imperial text-[26px] lg:text-[32px] text-center leading-[1.2]">Veil</h3>
-          <p className="text-[#383838] lg:text-[18px] text-center">Maria Jamaica Arangozo</p>
+          <p className="text-white/65 lg:text-[18px] text-center">Maria Jamaica Arangozo</p>
         </div>
 
         <div className="grid grid-cols-2 gap-2 mt-8 max-w-[480px] mx-auto">
           <div className="text-center">
             <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Candle</h3>
-            <p className="text-[#383838] lg:text-[18px]">Raiza Pernia</p>
+            <p className="text-white/65 lg:text-[18px]">Raiza Pernia</p>
           </div>
           <div className="text-center">
             <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Ring Bearer</h3>
-            <p className="text-[#383838] lg:text-[18px]">Raphael Matthew Cortez</p>
+            <p className="text-white/65 lg:text-[18px]">Raphael Matthew Cortez</p>
           </div>
         </div>
 
         <div className="grid grid-cols-2 mt-8 max-w-[320px] mx-auto">
           <div className="text-center">
             <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Coin Bearer</h3>
-            <p className="text-[#383838] lg:text-[18px]">Amirah Liza Santos</p>
+            <p className="text-white/65 lg:text-[18px]">Amirah Liza Santos</p>
           </div>
           <div className="text-center">
             <h3 className="font-imperial text-[26px] lg:text-[32px] leading-[1.2]">Bible Bearer</h3>
-            <p className="text-[#383838] lg:text-[18px]">Edzel Cortez</p>
+            <p className="text-white/65 lg:text-[18px]">Edzel Cortez</p>
           </div>
         </div>
 
         <div className="mt-8">
           <h3 className="font-imperial text-[26px] lg:text-[32px] text-center leading-[1.2]">Flower Girl</h3>
-          <p className="text-[#383838] lg:text-[18px] text-center">Kaia Winona Santos</p>
+          <p className="text-white/65 lg:text-[18px] text-center">Kaia Winona Santos</p>
         </div>
 
       </section>
@@ -356,19 +356,6 @@ export default function Home() {
             Our Venue
           </h2>
         </header>  
-        {/* <div className="map-wrapper px-5 mb-10 max-w-[700px] mx-auto">
-          <div style={{ width: "100%", height: "350px", position: "relative" }}>
-            <iframe
-              src="https://www.google.com/maps?q=14.1486862,120.9849878&z=15&output=embed"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div> */}
         <p className="text-center text-lg lg:text-[20px] leading-normal font-bold text-[#232323]">
           Ceremony
         </p>
