@@ -472,7 +472,8 @@ export default function Home() {
           <hr className="h-px bg-gray-100 border-0"/>
 
           <FaqItem question="Can I bring a guest?">
-            If you have been permitted to bring a guest, your invitation is either your guest&apos;s name or a +1 notation. Otherwise, we would love to keep our wedding as an intimate event with close friends and family only.
+            {/* If you have been permitted to bring a guest, your invitation is either your guest&apos;s name or a +1 notation. Otherwise, we would love to keep our wedding as an intimate event with close friends and family only. */}
+            If you have been permitted to bring a guest, your invitation will include either your guest&apos;s name or a &apos;+1&apos; notation. Otherwise, we would love to keep our wedding as an intimate event with close friends and family only.
           </FaqItem>
 
           <hr className="h-px bg-gray-100 border-0"/>
